@@ -16,10 +16,10 @@ export default function TalkCard({talkDetails}) {
 
           <div className="card-footer-button-div">
             <a href={talkDetails.slides_url} target="_" className="talk-button">
-              Slides
+              Click
             </a>
-            <a href={talkDetails.event_url} target="_" className="talk-button">
-              Event
+            <a href="tel: +919743045741" target="_" className="talk-button">
+              Call  
             </a>
           </div>
         </div>
