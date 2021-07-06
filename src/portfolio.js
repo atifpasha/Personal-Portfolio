@@ -3,7 +3,7 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-    animated: true // set to false to use static SVG
+    animated: false // set to false to use static SVG
 };
 
 const greeting = {
@@ -12,7 +12,7 @@ const greeting = {
     subTitle: emoji(
         "A passionate Front-end developer 🚀 and Iam a fresher having  good knowledge of Html, Css  with JavaScript / Reactjs frameworks."
     ),
-    resumeLink: "https://drive.google.com/file/d/1CtMqBKLif-pWtDZz8MBVc2acCBbfSczc/view?usp=sharing",
+    resumeLink: "https://drive.google.com/file/d/1vCV2joYMflFCFoVY-OUgfGYYo6RSeyBB/view?usp=sharing",
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -33,7 +33,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "CRAZY FRONT-END DEVELOPER",
+    subTitle: "FRONT-END DEVELOPER",
     skills: [
         emoji(
             "⚡ Develop highly interactive Front end / User Interfaces for your web application"
@@ -100,11 +100,11 @@ const techStack = {
         },
         {
             Stack: "Javascript",
-            progressPercentage: "70%"
+            progressPercentage: "80%"
         },
         {
             Stack: "React",
-            progressPercentage: "50%"
+            progressPercentage: "60%"
         }
     ],
     displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
